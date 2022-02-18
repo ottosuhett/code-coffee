@@ -1,0 +1,110 @@
+@media (max-width:992px){
+    .section-with-text{
+        padding: 153px 30px;
+    }
+    .section-with-text p, 
+    .section-with-text.location p{
+        width: 100%;
+    }
+    
+}
+
+@media(max-width:768px){
+    .contact{
+        background-image: none;
+        background-color: #d3ae71;
+    }
+    .contact .contact-text{
+        position: relative;
+        text-align: center;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        padding: 20px;
+        font-size: 2rem;
+    }
+    .contact h2{
+        margin-bottom: 46px;
+    }
+    
+}
+
+@media(max-width:720px){
+    .puzzle .big-img,
+    .puzzle .medium-img{
+        width: 100%;
+    }
+
+    .puzzle .small-img,
+    .puzzle .small-img.bean{
+        width: 50%;
+    }
+
+    footer {
+        text-align: center;
+        background-image: none;
+        background-color: black;
+    }
+    
+    footer ul{
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-top: 122px;
+        margin-bottom: 122px;
+    }
+
+    footer ul li{
+        display: block;
+    }
+    footer ul li a{
+        font-size: 2rem;
+    }
+    footer .social-medias{
+        float: none;
+        margin-bottom: 28px;
+
+    }
+}
+
+@media (max-width:425px){
+    header .logo{
+        display: block;
+        margin: 0 auto;
+    }
+
+    header nav{
+        position: static;
+        text-align: center;
+        width: 100%;
+    }
+    header nav ul li{
+        display: block;
+    }
+
+    header nav ul li a{
+        width: 100%;
+        display: block;
+    }
+
+    .banner h2{
+        font-size: 2.5rem;
+    }
+   
+    .section-with-text h2, 
+    .section-with-text.location h2{
+        font-size: 30px;
+    }
+
+    .section-with-text p, 
+    .section-with-text.location p{
+        font-size: 2rem;
+    }
+}
+
+@media(max-width:375px){
+    .puzzle .small-img,
+    .puzzle .small-img.bean{
+        width: 100%;
+    }
+}
